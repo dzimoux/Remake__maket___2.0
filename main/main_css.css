@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#top_container{
+    width: 100vw;
+    height: 100vh;
+
+
+    /*position: absolute;*/
+}
+
+
+#top_white_hat{
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+}
+
+#top_yellow_hat{
+
+    width: 100vw;
+    height: 70vh;
+    background-color: #FEC524;
+
+}
+
+#bottom_background_top{
+    width: 100vw;
+    height: 10vh;
+    background: #F8F8F8;
+}
+
+#top_white_hat img{
+    padding-left: 135px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+#buttons_top{
+    display: flex;
+    padding-left: 135px;
+    gap: 30px;
+}
+
+
+
+#buttons_top a{
+    color: #99A2AA;
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 375% */
+    text-decoration: none;
+
+}
+
+#payment_add_top{
+    color: #FFF;
+    margin: 0;
+    padding-top: 54px;
+    padding-left: 135px;
+    padding-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+}
+
+#win_gifts{
+    color: #0E2F4B;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 135px;
+    padding-bottom: 92px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+
+}
+
+#top_input{
+    padding-left: 135px;
+
+}
+#top_input input{
+    width: 570px;
+    height: 70px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+#four_top_buttons{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    bottom: -12%;
+    padding-left: 135px;
+}
+
+.top_button{
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+    max-width: 270px;
+    min-width: 200px;
+    max-height: 80px;
+}
+
+.top_button1{
+    padding: 26px 54px 24px 55px;
+}
+
+.top_button2{
+    padding: 26px 65px 24px 65px;
+}
+
+.top_button3{
+    padding: 26px 49px 24px 50px;
+}
+
+.top_button4{
+    padding: 26px 48px 24px 49px;
+}
+
+
+
+.top_button p{
+
+    color: #99A2AA;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+
+.top_button img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.img_and_p_top{
+    display: flex;
+    gap: 24px;
+
+}
